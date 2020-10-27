@@ -1,0 +1,29 @@
+{
+    "shortid": "ZX8r6y-VMH",
+    "name": "DemoReport",
+    "recipe": "html",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1603567875648
+    },
+    "modificationDate": {
+        "$$date": 1603569368645
+    },
+    "_id": "tOpwhNR9LAGlL1fL",
+    "$entitySet": "templates",
+    "data": {
+        "shortid": "LZwWjqqHBw"
+    },
+    "docx": null,
+    "resources": {
+        "items": [
+            {
+                "shortid": "LZwWjqqHBw",
+                "entitySet": "data"
+            }
+        ]
+    }
+}

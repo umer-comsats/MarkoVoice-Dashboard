@@ -1,0 +1,30 @@
+{
+	"name": "markovoice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon index",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"author": "Muhammad Mansha",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"concurrently": "^5.3.0",
+		"config": "^3.3.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"joi": "^17.1.1",
+		"joi-objectid": "^3.0.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.9.27",
+		"react-toastify": "^6.0.8"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"proxy": "http://localhost:3001"
+}

@@ -1,0 +1,654 @@
+2020-10-04T22:37:39.137Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-04T22:37:39.139Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-04T22:37:39.146Z - info: Extensions location cache C:\Users\MUHAMM~1\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2020-10-04T22:37:40.314Z - info: Found 35 extensions
+2020-10-04T22:37:40.621Z - debug: Writing extension locations cache to C:\Users\MUHAMM~1\AppData\Local\Temp\jsreport\core\locations.json
+2020-10-04T22:37:40.623Z - debug: Discovered 35 extensions
+2020-10-04T22:37:40.709Z - info: Setting http-server strategy for rendering
+2020-10-04T22:37:40.944Z - info: Using extension authentication@2.6.0
+2020-10-04T22:37:41.003Z - info: Using extension cli@2.2.5
+2020-10-04T22:37:41.010Z - info: Using extension debug@2.1.3
+2020-10-04T22:37:41.012Z - info: Using extension express@2.8.0
+2020-10-04T22:37:41.220Z - info: Using extension freeze@2.0.0
+2020-10-04T22:37:41.227Z - info: Using extension handlebars@2.1.0
+2020-10-04T22:37:41.231Z - info: Using extension import-export@2.1.0
+2020-10-04T22:37:41.292Z - info: Using extension jsrender@2.1.1
+2020-10-04T22:37:41.293Z - info: Using extension tags@2.5.0
+2020-10-04T22:37:41.297Z - info: Using extension templates@2.4.0
+2020-10-04T22:37:41.305Z - info: Using extension authorization@2.4.0
+2020-10-04T22:37:41.310Z - info: Using extension base@2.0.2
+2020-10-04T22:37:41.313Z - info: Using extension browser-client@2.2.2
+2020-10-04T22:37:41.316Z - info: Using extension child-templates@1.4.0
+2020-10-04T22:37:41.323Z - info: Using extension chrome-pdf@1.9.0
+2020-10-04T22:37:41.399Z - debug: Chrome strategy is dedicated-process
+2020-10-04T22:37:41.400Z - info: Using extension data@2.4.0
+2020-10-04T22:37:41.406Z - info: Using extension docx@2.8.0
+2020-10-04T22:37:41.412Z - info: Using extension fs-store@2.9.0
+2020-10-04T22:37:41.577Z - info: Using extension licensing@2.2.3
+2020-10-04T22:37:41.589Z - info: Using extension pdf-utils@1.9.0
+2020-10-04T22:37:41.683Z - info: Using extension pptx@0.7.0
+2020-10-04T22:37:41.689Z - info: Using extension reports@2.5.0
+2020-10-04T22:37:41.694Z - info: Using extension static-pdf@0.4.0
+2020-10-04T22:37:41.697Z - info: Using extension studio@2.10.1
+2020-10-04T22:37:41.767Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-10-04T22:37:41.770Z - info: Using extension text@2.0.0
+2020-10-04T22:37:41.771Z - info: Using extension version-control@1.5.1
+2020-10-04T22:37:41.858Z - info: Using extension assets@1.7.0
+2020-10-04T22:37:41.869Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-04T22:37:42.228Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-04T22:37:42.228Z - info: Using extension scheduling@2.5.0
+2020-10-04T22:37:42.276Z - info: Using extension scripts@2.6.0
+2020-10-04T22:37:42.282Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-04T22:37:42.285Z - info: Using extension xlsx@2.5.0
+2020-10-04T22:37:42.475Z - info: Using extension public-templates@2.2.0
+2020-10-04T22:37:42.477Z - info: Using extension resources@2.1.0
+2020-10-04T22:37:42.478Z - info: Using extension sample-template@2.6.0
+2020-10-04T22:37:42.482Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-04T22:37:42.482Z - info: Using fs provider for template store.
+2020-10-04T22:37:42.494Z - info: fs store is persisting using fs
+2020-10-04T22:37:42.496Z - info: fs store is synchronizing using fs
+2020-10-04T22:37:42.539Z - info: fs store is loading data
+2020-10-04T22:37:42.544Z - debug: fs store sync is configured to use polling for files watcher
+2020-10-04T22:37:42.591Z - info: fs store is initialized successfully
+2020-10-04T22:37:42.607Z - debug: studio default theme is: light
+2020-10-04T22:37:42.636Z - info: Creating default express app.
+2020-10-04T22:37:42.666Z - debug: Reading ssl certificate from C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-express\certificates\jsreport.net.cert
+2020-10-04T22:37:42.683Z - info: jsreport server successfully started on https port: 5488
+2020-10-04T22:37:42.693Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-04T22:37:42.735Z - info: Verifying license key free
+2020-10-04T22:37:42.737Z - info: Using free license
+2020-10-04T22:37:42.742Z - debug: Inserting samples
+2020-10-04T22:37:42.748Z - debug: Creating folder "samples" for sample entities
+2020-10-04T22:37:42.774Z - debug: Inserting sample entity Invoice (entitySet: folders)
+2020-10-04T22:37:42.793Z - debug: Inserting sample entity Orders (entitySet: folders)
+2020-10-04T22:37:42.814Z - debug: Inserting sample entity Sales (entitySet: folders)
+2020-10-04T22:37:42.829Z - debug: Inserting sample entity shared (entitySet: folders)
+2020-10-04T22:37:42.852Z - debug: Inserting sample entity invoice-data (entitySet: data)
+2020-10-04T22:37:42.877Z - debug: Inserting sample entity sales-data (entitySet: data)
+2020-10-04T22:37:42.906Z - debug: Inserting sample entity sales-main (entitySet: templates)
+2020-10-04T22:37:42.949Z - debug: Inserting sample entity invoice-main (entitySet: templates)
+2020-10-04T22:37:42.964Z - debug: Inserting sample entity orders-header (entitySet: templates)
+2020-10-04T22:37:42.981Z - debug: Inserting sample entity orders-main (entitySet: templates)
+2020-10-04T22:37:43.022Z - debug: Inserting sample entity invoice-styles.css (entitySet: assets)
+2020-10-04T22:37:43.071Z - debug: Inserting sample entity invoice-logo.png (entitySet: assets)
+2020-10-04T22:37:43.090Z - debug: Inserting sample entity orders-styles.css (entitySet: assets)
+2020-10-04T22:37:43.114Z - debug: Inserting sample entity sales-styles.css (entitySet: assets)
+2020-10-04T22:37:43.142Z - debug: Inserting sample entity global helpers.js (entitySet: assets)
+2020-10-04T22:37:43.158Z - debug: Inserting sample entity orders-script (entitySet: scripts)
+2020-10-04T22:37:43.178Z - info: reporter initialized
+2020-10-04T22:39:27.216Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-04T22:39:27.218Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-04T22:39:27.233Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-04T22:39:27.248Z - info: Found 35 extensions
+2020-10-04T22:39:27.487Z - debug: Writing extension locations cache to C:\Users\MUHAMM~1\AppData\Local\Temp\jsreport\core\locations.json
+2020-10-04T22:39:27.496Z - debug: Discovered 35 extensions
+2020-10-04T22:39:27.575Z - info: Setting http-server strategy for rendering
+2020-10-04T22:39:27.761Z - info: Using extension authentication@2.6.0
+2020-10-04T22:39:27.808Z - info: Using extension cli@2.2.5
+2020-10-04T22:39:27.816Z - info: Using extension debug@2.1.3
+2020-10-04T22:39:27.819Z - info: Using extension express@2.8.0
+2020-10-04T22:39:27.985Z - info: Using extension freeze@2.0.0
+2020-10-04T22:39:27.988Z - info: Using extension handlebars@2.1.0
+2020-10-04T22:39:27.994Z - info: Using extension import-export@2.1.0
+2020-10-04T22:39:28.049Z - info: Using extension jsrender@2.1.1
+2020-10-04T22:39:28.051Z - info: Using extension tags@2.5.0
+2020-10-04T22:39:28.054Z - info: Using extension templates@2.4.0
+2020-10-04T22:39:28.057Z - info: Using extension authorization@2.4.0
+2020-10-04T22:39:28.064Z - info: Using extension base@2.0.2
+2020-10-04T22:39:28.067Z - info: Using extension browser-client@2.2.2
+2020-10-04T22:39:28.069Z - info: Using extension child-templates@1.4.0
+2020-10-04T22:39:28.080Z - info: Using extension chrome-pdf@1.9.0
+2020-10-04T22:39:28.161Z - debug: Chrome strategy is dedicated-process
+2020-10-04T22:39:28.162Z - info: Using extension data@2.4.0
+2020-10-04T22:39:28.164Z - info: Using extension docx@2.8.0
+2020-10-04T22:39:28.169Z - info: Using extension fs-store@2.9.0
+2020-10-04T22:39:28.327Z - info: Using extension licensing@2.2.3
+2020-10-04T22:39:28.336Z - info: Using extension pdf-utils@1.9.0
+2020-10-04T22:39:28.439Z - info: Using extension pptx@0.7.0
+2020-10-04T22:39:28.448Z - info: Using extension reports@2.5.0
+2020-10-04T22:39:28.453Z - info: Using extension static-pdf@0.4.0
+2020-10-04T22:39:28.458Z - info: Using extension studio@2.10.1
+2020-10-04T22:39:28.540Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-10-04T22:39:28.543Z - info: Using extension text@2.0.0
+2020-10-04T22:39:28.544Z - info: Using extension version-control@1.5.1
+2020-10-04T22:39:28.630Z - info: Using extension assets@1.7.0
+2020-10-04T22:39:28.641Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-04T22:39:28.987Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-04T22:39:28.988Z - info: Using extension scheduling@2.5.0
+2020-10-04T22:39:29.041Z - info: Using extension scripts@2.6.0
+2020-10-04T22:39:29.045Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-04T22:39:29.047Z - info: Using extension xlsx@2.5.0
+2020-10-04T22:39:29.224Z - info: Using extension public-templates@2.2.0
+2020-10-04T22:39:29.227Z - info: Using extension resources@2.1.0
+2020-10-04T22:39:29.229Z - info: Using extension sample-template@2.6.0
+2020-10-04T22:39:29.232Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-04T22:39:29.232Z - info: Using fs provider for template store.
+2020-10-04T22:39:29.239Z - info: fs store is persisting using fs
+2020-10-04T22:39:29.241Z - info: fs store is synchronizing using fs
+2020-10-04T22:39:29.278Z - info: fs store is loading data
+2020-10-04T22:39:29.301Z - debug: fs store sync is configured to use polling for files watcher
+2020-10-04T22:39:29.376Z - info: fs store is initialized successfully
+2020-10-04T22:39:29.382Z - debug: studio default theme is: light
+2020-10-04T22:39:29.390Z - info: Creating default express app.
+2020-10-04T22:39:29.416Z - debug: Reading ssl certificate from C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-express\certificates\jsreport.net.cert
+2020-10-04T22:39:29.434Z - info: jsreport server successfully started on https port: 5488
+2020-10-04T22:39:29.437Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-04T22:39:29.471Z - info: Verifying license key free
+2020-10-04T22:39:29.473Z - info: Using free license
+2020-10-04T22:39:29.485Z - info: reporter initialized
+2020-10-04T22:42:45.558Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-04T22:42:45.560Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-04T22:42:45.575Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-04T22:42:45.585Z - info: Found 35 extensions
+2020-10-04T22:42:45.848Z - info: Setting http-server strategy for rendering
+2020-10-04T22:42:46.035Z - info: Using extension cli@2.2.5
+2020-10-04T22:42:46.044Z - info: Using extension debug@2.1.3
+2020-10-04T22:42:46.048Z - info: Using extension express@2.8.0
+2020-10-04T22:42:46.211Z - info: Using extension freeze@2.0.0
+2020-10-04T22:42:46.218Z - info: Using extension handlebars@2.1.0
+2020-10-04T22:42:46.223Z - info: Using extension import-export@2.1.0
+2020-10-04T22:42:46.284Z - info: Using extension jsrender@2.1.1
+2020-10-04T22:42:46.286Z - info: Using extension tags@2.5.0
+2020-10-04T22:42:46.289Z - info: Using extension templates@2.4.0
+2020-10-04T22:42:46.292Z - info: Using extension authorization@2.4.0
+2020-10-04T22:42:46.300Z - info: Using extension base@2.0.2
+2020-10-04T22:42:46.303Z - info: Using extension browser-client@2.2.2
+2020-10-04T22:42:46.306Z - info: Using extension child-templates@1.4.0
+2020-10-04T22:42:46.316Z - info: Using extension chrome-pdf@1.9.0
+2020-10-04T22:42:46.396Z - info: Using extension data@2.4.0
+2020-10-04T22:42:46.402Z - info: Using extension docx@2.8.0
+2020-10-04T22:42:46.409Z - info: Using extension fs-store@2.9.0
+2020-10-04T22:42:46.559Z - info: Using extension licensing@2.2.3
+2020-10-04T22:42:46.567Z - info: Using extension pdf-utils@1.9.0
+2020-10-04T22:42:46.646Z - info: Using extension pptx@0.7.0
+2020-10-04T22:42:46.654Z - info: Using extension reports@2.5.0
+2020-10-04T22:42:46.660Z - info: Using extension static-pdf@0.4.0
+2020-10-04T22:42:46.666Z - info: Using extension studio@2.10.1
+2020-10-04T22:42:46.730Z - info: Using extension text@2.0.0
+2020-10-04T22:42:46.735Z - info: Using extension version-control@1.5.1
+2020-10-04T22:42:46.819Z - info: Using extension assets@1.7.0
+2020-10-04T22:42:46.831Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-04T22:42:47.165Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-04T22:42:47.166Z - info: Using extension scheduling@2.5.0
+2020-10-04T22:42:47.205Z - info: Using extension scripts@2.6.0
+2020-10-04T22:42:47.211Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-04T22:42:47.213Z - info: Using extension xlsx@2.5.0
+2020-10-04T22:42:47.383Z - info: Using extension public-templates@2.2.0
+2020-10-04T22:42:47.390Z - info: Using extension resources@2.1.0
+2020-10-04T22:42:47.392Z - info: Using extension sample-template@2.6.0
+2020-10-04T22:42:47.402Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-04T22:42:47.403Z - info: Using fs provider for template store.
+2020-10-04T22:42:47.409Z - info: fs store is persisting using fs
+2020-10-04T22:42:47.417Z - info: fs store is synchronizing using fs
+2020-10-04T22:42:47.450Z - info: fs store is loading data
+2020-10-04T22:42:47.526Z - info: fs store is initialized successfully
+2020-10-04T22:42:47.541Z - info: Creating default express app.
+2020-10-04T22:42:47.585Z - info: jsreport server successfully started on https port: 5488
+2020-10-04T22:42:47.586Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-04T22:42:47.608Z - info: Verifying license key free
+2020-10-04T22:42:47.617Z - info: Using free license
+2020-10-04T22:42:47.626Z - info: reporter initialized
+2020-10-04T22:46:00.695Z - info: Starting rendering request 1 (user: null)
+2020-10-04T22:46:00.705Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-04T22:46:17.127Z - info: pdf-utils is starting pdf processing
+2020-10-04T22:46:17.436Z - info: Starting rendering request 2 (user: null)
+2020-10-04T22:46:17.438Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-04T22:46:20.372Z - info: Rendering request 2 finished in 2937 ms
+2020-10-04T22:46:20.521Z - info: pdf-utils pdf processing was finished
+2020-10-04T22:46:20.533Z - info: Rendering request 1 finished in 19837 ms
+2020-10-24T19:08:54.733Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-24T19:08:54.736Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-24T19:08:54.772Z - info: Extensions location cache not found, crawling directories
+2020-10-24T19:09:26.990Z - info: Found 35 extensions
+2020-10-24T19:09:29.739Z - info: Setting http-server strategy for rendering
+2020-10-24T19:09:30.137Z - info: Using extension cli@2.2.5
+2020-10-24T19:09:30.180Z - info: Using extension debug@2.1.3
+2020-10-24T19:09:30.208Z - info: Using extension express@2.8.0
+2020-10-24T19:09:32.700Z - info: Using extension freeze@2.0.0
+2020-10-24T19:09:32.751Z - info: Using extension handlebars@2.1.0
+2020-10-24T19:09:32.785Z - info: Using extension import-export@2.1.0
+2020-10-24T19:09:33.668Z - info: Using extension jsrender@2.1.1
+2020-10-24T19:09:33.683Z - info: Using extension tags@2.5.0
+2020-10-24T19:09:33.705Z - info: Using extension templates@2.4.0
+2020-10-24T19:09:33.732Z - info: Using extension authorization@2.4.0
+2020-10-24T19:09:33.786Z - info: Using extension base@2.0.2
+2020-10-24T19:09:33.804Z - info: Using extension browser-client@2.2.2
+2020-10-24T19:09:33.821Z - info: Using extension child-templates@1.4.0
+2020-10-24T19:09:33.842Z - info: Using extension chrome-pdf@1.9.0
+2020-10-24T19:09:35.238Z - info: Using extension data@2.4.0
+2020-10-24T19:09:35.290Z - info: Using extension docx@2.8.0
+2020-10-24T19:09:35.337Z - info: Using extension fs-store@2.9.0
+2020-10-24T19:09:37.698Z - info: Using extension licensing@2.2.3
+2020-10-24T19:09:37.855Z - info: Using extension pdf-utils@1.9.0
+2020-10-24T19:09:39.072Z - info: Using extension pptx@0.7.0
+2020-10-24T19:09:39.111Z - info: Using extension reports@2.5.0
+2020-10-24T19:09:39.149Z - info: Using extension static-pdf@0.4.0
+2020-10-24T19:09:39.196Z - info: Using extension studio@2.10.1
+2020-10-24T19:09:39.797Z - info: Using extension text@2.0.0
+2020-10-24T19:09:39.809Z - info: Using extension version-control@1.5.1
+2020-10-24T19:09:41.302Z - info: Using extension assets@1.7.0
+2020-10-24T19:09:41.417Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-24T19:09:47.363Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-24T19:09:47.399Z - info: Using extension scheduling@2.5.0
+2020-10-24T19:09:47.811Z - info: Using extension scripts@2.6.0
+2020-10-24T19:09:47.838Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-24T19:09:47.864Z - info: Using extension xlsx@2.5.0
+2020-10-24T19:09:51.435Z - info: Using extension public-templates@2.2.0
+2020-10-24T19:09:51.528Z - info: Using extension resources@2.1.0
+2020-10-24T19:09:51.552Z - info: Using extension sample-template@2.6.0
+2020-10-24T19:09:51.574Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-24T19:09:51.577Z - info: Using fs provider for template store.
+2020-10-24T19:09:51.591Z - info: fs store is persisting using fs
+2020-10-24T19:09:51.602Z - info: fs store is synchronizing using fs
+2020-10-24T19:09:51.673Z - info: fs store is loading data
+2020-10-24T19:09:51.962Z - info: fs store is initialized successfully
+2020-10-24T19:09:52.015Z - info: Creating default express app.
+2020-10-24T19:09:53.157Z - info: jsreport server successfully started on https port: 5488
+2020-10-24T19:09:53.159Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-24T19:09:53.398Z - info: Verifying license key free
+2020-10-24T19:09:53.419Z - info: Using free license
+2020-10-24T19:09:53.448Z - info: reporter initialized
+2020-10-24T19:11:34.495Z - info: Starting rendering request 1 (user: null)
+2020-10-24T19:11:34.514Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:12:02.919Z - info: pdf-utils is starting pdf processing
+2020-10-24T19:12:03.510Z - info: Starting rendering request 2 (user: null)
+2020-10-24T19:12:03.514Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:12:07.887Z - info: Rendering request 2 finished in 4389 ms
+2020-10-24T19:12:08.167Z - info: pdf-utils pdf processing was finished
+2020-10-24T19:12:08.171Z - info: Rendering request 1 finished in 33676 ms
+2020-10-24T19:15:50.757Z - info: Starting rendering request 3 (user: null)
+2020-10-24T19:15:50.774Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:15:59.576Z - info: pdf-utils is starting pdf processing
+2020-10-24T19:15:59.735Z - info: Starting rendering request 4 (user: null)
+2020-10-24T19:15:59.738Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:15:59.971Z - info: Starting rendering request 5 (user: null)
+2020-10-24T19:15:59.988Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:16:02.848Z - info: Rendering request 4 finished in 3124 ms
+2020-10-24T19:16:02.974Z - info: pdf-utils pdf processing was finished
+2020-10-24T19:16:02.986Z - info: Rendering request 3 finished in 12230 ms
+2020-10-24T19:16:06.437Z - info: pdf-utils is starting pdf processing
+2020-10-24T19:16:06.539Z - info: Starting rendering request 6 (user: null)
+2020-10-24T19:16:06.552Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:16:09.942Z - info: Rendering request 6 finished in 3390 ms
+2020-10-24T19:16:10.075Z - info: pdf-utils pdf processing was finished
+2020-10-24T19:16:10.094Z - info: Rendering request 5 finished in 10123 ms
+2020-10-24T19:16:20.164Z - info: Starting rendering request 7 (user: null)
+2020-10-24T19:16:20.167Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-24T19:16:20.327Z - info: html-to-xlsx generation is starting
+2020-10-24T19:16:23.944Z - info: html-to-xlsx generation was finished
+2020-10-24T19:16:25.841Z - info: Rendering request 7 finished in 5641 ms
+2020-10-24T19:32:37.362Z - info: Starting rendering request 8 (user: null)
+2020-10-24T19:32:37.376Z - info: Rendering template { name: Demo, recipe: xlsx, engine: handlebars, preview: true }
+2020-10-24T19:32:37.788Z - warn: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to ... 
+SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\recipe.js:25:26)
+    at Object.execute (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\index.js:39:28)
+    at invokeRender (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\render\render.js:99:17)
+    at async module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\render\render.js:150:5)
+2020-10-24T19:32:37.879Z - warn: Rendering request 8 finished with error in 518 ms
+2020-10-24T19:32:37.950Z - warn: Error when processing render request 8 Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to ... Error: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to ...
+    at module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\fallback.js:53:20
+    at tryCatcher (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:458:21)
+2020-10-24T19:32:37.976Z - warn: Error during processing request at https://www.localhost:5488/api/report/Demo
+2020-10-24T19:33:02.830Z - info: Starting rendering request 9 (user: null)
+2020-10-24T19:33:02.843Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:33:02.879Z - info: Rendering request 9 finished in 49 ms
+2020-10-24T19:33:23.628Z - info: Starting rendering request 10 (user: null)
+2020-10-24T19:33:23.630Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:33:23.666Z - info: Rendering request 10 finished in 38 ms
+2020-10-24T19:34:10.872Z - info: Starting rendering request 11 (user: null)
+2020-10-24T19:34:10.874Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:34:10.924Z - info: Rendering request 11 finished in 43 ms
+2020-10-24T19:34:48.968Z - info: Starting rendering request 12 (user: null)
+2020-10-24T19:34:48.981Z - info: Rendering template { name: Demo, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-24T19:34:50.313Z - info: Rendering request 12 finished in 1345 ms
+2020-10-24T19:35:06.970Z - info: Starting rendering request 13 (user: null)
+2020-10-24T19:35:06.973Z - info: Rendering template { name: Demo, recipe: xlsx, engine: handlebars, preview: true }
+2020-10-24T19:35:07.056Z - warn: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to MarkoVoice... 
+SyntaxError: Unexpected token H in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\recipe.js:25:26)
+    at Object.execute (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\index.js:39:28)
+    at invokeRender (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\render\render.js:99:17)
+    at async module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\render\render.js:150:5)
+2020-10-24T19:35:07.074Z - warn: Rendering request 13 finished with error in 94 ms
+2020-10-24T19:35:07.215Z - warn: Error when processing render request 13 Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to MarkoVoice... Error: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+Hello World!
+Welcome to MarkoVoice...
+    at module.exports (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\lib\fallback.js:53:20
+    at tryCatcher (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\node_modules\jsreport-xlsx\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:458:21)
+2020-10-24T19:35:07.218Z - warn: Error during processing request at https://www.localhost:5488/api/report/Demo
+2020-10-24T19:36:43.347Z - info: Starting rendering request 14 (user: null)
+2020-10-24T19:36:43.349Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:36:43.395Z - info: Rendering request 14 finished in 47 ms
+2020-10-24T19:36:51.186Z - info: Starting rendering request 15 (user: null)
+2020-10-24T19:36:51.200Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: false }
+2020-10-24T19:36:51.284Z - info: Rendering request 15 finished in 83 ms
+2020-10-24T19:39:13.369Z - info: Starting rendering request 16 (user: null)
+2020-10-24T19:39:13.371Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:39:13.420Z - info: Rendering request 16 finished in 52 ms
+2020-10-24T19:39:13.452Z - info: Starting rendering request 17 (user: null)
+2020-10-24T19:39:13.455Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:39:13.490Z - info: Rendering request 17 finished in 42 ms
+2020-10-24T19:39:13.676Z - info: Starting rendering request 18 (user: null)
+2020-10-24T19:39:13.677Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:39:13.723Z - info: Rendering request 18 finished in 47 ms
+2020-10-24T19:39:17.937Z - info: Starting rendering request 19 (user: null)
+2020-10-24T19:39:17.939Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:39:17.973Z - info: Rendering request 19 finished in 37 ms
+2020-10-24T19:44:13.200Z - info: Starting rendering request 20 (user: null)
+2020-10-24T19:44:13.201Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:44:13.233Z - info: Rendering request 20 finished in 33 ms
+2020-10-24T19:44:31.183Z - info: Starting rendering request 21 (user: null)
+2020-10-24T19:44:31.185Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:44:31.244Z - info: Rendering request 21 finished in 61 ms
+2020-10-24T19:48:32.846Z - info: Starting rendering request 22 (user: null)
+2020-10-24T19:48:32.863Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:48:32.913Z - info: Rendering request 22 finished in 68 ms
+2020-10-24T19:48:37.707Z - info: Starting rendering request 23 (user: null)
+2020-10-24T19:48:37.708Z - info: Rendering template { name: Demo, recipe: html, engine: handlebars, preview: true }
+2020-10-24T19:48:37.747Z - info: Rendering request 23 finished in 40 ms
+2020-10-24T20:29:22.578Z - info: Starting rendering request 24 (user: null)
+2020-10-24T20:29:22.580Z - info: Rendering template { name: DemoReport, recipe: html, engine: handlebars, preview: true }
+2020-10-24T20:29:22.600Z - info: Rendering request 24 finished in 22 ms
+2020-10-24T20:39:20.695Z - info: Starting rendering request 25 (user: null)
+2020-10-24T20:39:20.710Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-24T20:39:20.773Z - info: html-to-xlsx generation is starting
+2020-10-24T20:39:22.372Z - info: html-to-xlsx generation was finished
+2020-10-24T20:39:23.448Z - info: Rendering request 25 finished in 2792 ms
+2020-10-25T12:11:29.809Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-25T12:11:29.814Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-25T12:11:29.926Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-25T12:11:30.008Z - info: Found 35 extensions
+2020-10-25T12:11:34.294Z - info: Setting http-server strategy for rendering
+2020-10-25T12:11:34.660Z - info: Using extension cli@2.2.5
+2020-10-25T12:11:34.686Z - info: Using extension debug@2.1.3
+2020-10-25T12:11:34.706Z - info: Using extension express@2.8.0
+2020-10-25T12:11:38.732Z - info: Using extension freeze@2.0.0
+2020-10-25T12:11:38.807Z - info: Using extension handlebars@2.1.0
+2020-10-25T12:11:38.878Z - info: Using extension import-export@2.1.0
+2020-10-25T12:11:40.137Z - info: Using extension jsrender@2.1.1
+2020-10-25T12:11:40.166Z - info: Using extension tags@2.5.0
+2020-10-25T12:11:40.187Z - info: Using extension templates@2.4.0
+2020-10-25T12:11:40.206Z - info: Using extension authorization@2.4.0
+2020-10-25T12:11:40.345Z - info: Using extension base@2.0.2
+2020-10-25T12:11:40.387Z - info: Using extension browser-client@2.2.2
+2020-10-25T12:11:40.456Z - info: Using extension child-templates@1.4.0
+2020-10-25T12:11:40.538Z - info: Using extension chrome-pdf@1.9.0
+2020-10-25T12:11:42.326Z - info: Using extension data@2.4.0
+2020-10-25T12:11:42.336Z - info: Using extension docx@2.8.0
+2020-10-25T12:11:42.364Z - info: Using extension fs-store@2.9.0
+2020-10-25T12:11:45.304Z - info: Using extension licensing@2.2.3
+2020-10-25T12:11:45.436Z - info: Using extension pdf-utils@1.9.0
+2020-10-25T12:11:47.007Z - info: Using extension pptx@0.7.0
+2020-10-25T12:11:47.088Z - info: Using extension reports@2.5.0
+2020-10-25T12:11:47.225Z - info: Using extension static-pdf@0.4.0
+2020-10-25T12:11:47.334Z - info: Using extension studio@2.10.1
+2020-10-25T12:11:48.184Z - info: Using extension text@2.0.0
+2020-10-25T12:11:48.230Z - info: Using extension version-control@1.5.1
+2020-10-25T12:11:50.021Z - info: Using extension assets@1.7.0
+2020-10-25T12:11:50.200Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-25T12:11:58.002Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-25T12:11:58.038Z - info: Using extension scheduling@2.5.0
+2020-10-25T12:11:58.474Z - info: Using extension scripts@2.6.0
+2020-10-25T12:11:58.518Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-25T12:11:58.553Z - info: Using extension xlsx@2.5.0
+2020-10-25T12:12:00.871Z - info: Using extension public-templates@2.2.0
+2020-10-25T12:12:00.888Z - info: Using extension resources@2.1.0
+2020-10-25T12:12:00.916Z - info: Using extension sample-template@2.6.0
+2020-10-25T12:12:00.944Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-25T12:12:00.944Z - info: Using fs provider for template store.
+2020-10-25T12:12:00.950Z - info: fs store is persisting using fs
+2020-10-25T12:12:00.953Z - info: fs store is synchronizing using fs
+2020-10-25T12:12:01.002Z - info: fs store is loading data
+2020-10-25T12:12:01.178Z - info: fs store is initialized successfully
+2020-10-25T12:12:01.201Z - info: Creating default express app.
+2020-10-25T12:12:02.079Z - info: jsreport server successfully started on https port: 5488
+2020-10-25T12:12:02.082Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-25T12:12:02.497Z - info: Verifying license key free
+2020-10-25T12:12:02.538Z - info: Using free license
+2020-10-25T12:12:02.555Z - info: reporter initialized
+2020-10-25T12:32:21.556Z - info: Starting rendering request 1 (user: null)
+2020-10-25T12:32:21.586Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:32:33.773Z - info: Starting rendering request 2 (user: null)
+2020-10-25T12:32:33.785Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:32:51.359Z - info: Rendering request 2 finished in 17586 ms
+2020-10-25T12:32:52.955Z - info: pdf-utils is starting pdf processing
+2020-10-25T12:32:53.498Z - info: Starting rendering request 3 (user: null)
+2020-10-25T12:32:53.500Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:32:56.879Z - info: Rendering request 3 finished in 3392 ms
+2020-10-25T12:32:57.044Z - info: pdf-utils pdf processing was finished
+2020-10-25T12:32:57.051Z - info: Rendering request 1 finished in 35497 ms
+2020-10-25T12:33:04.564Z - info: Starting rendering request 4 (user: null)
+2020-10-25T12:33:04.580Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:33:06.517Z - info: Rendering request 4 finished in 1984 ms
+2020-10-25T12:33:43.400Z - info: Starting rendering request 5 (user: null)
+2020-10-25T12:33:43.415Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:33:57.396Z - info: pdf-utils is starting pdf processing
+2020-10-25T12:33:57.552Z - info: Starting rendering request 6 (user: null)
+2020-10-25T12:33:57.554Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-25T12:34:01.039Z - info: Rendering request 6 finished in 3497 ms
+2020-10-25T12:34:01.207Z - info: pdf-utils pdf processing was finished
+2020-10-25T12:34:01.211Z - info: Rendering request 5 finished in 17811 ms
+2020-10-25T12:35:08.417Z - info: Starting rendering request 7 (user: null)
+2020-10-25T12:35:08.428Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-25T12:35:08.579Z - info: html-to-xlsx generation is starting
+2020-10-25T12:35:11.769Z - info: html-to-xlsx generation was finished
+2020-10-25T12:35:12.747Z - info: Rendering request 7 finished in 4329 ms
+2020-10-25T12:35:50.110Z - info: Starting rendering request 8 (user: null)
+2020-10-25T12:35:50.112Z - info: Rendering template { name: DemoReport, recipe: html, engine: handlebars, preview: true }
+2020-10-25T12:35:50.176Z - info: Rendering request 8 finished in 65 ms
+2020-10-25T12:38:08.669Z - error: Error when processing OData PATCH: /odata/folders(klLfSnsSekB436pJ) Error: EPERM: operation not permitted, rename 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\~samples~MarkoVoice Report Samples' -> 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\MarkoVoice Report Samples'
+2020-10-25T12:38:28.749Z - error: Error when processing OData PATCH: /odata/folders(klLfSnsSekB436pJ) Error: ENOENT: no such file or directory, scandir 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\samples'
+2020-10-26T14:08:14.720Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-26T14:08:14.722Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T14:08:15.037Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T14:08:15.047Z - info: Found 35 extensions
+2020-10-26T14:08:22.905Z - info: Setting http-server strategy for rendering
+2020-10-26T14:08:23.330Z - info: Using extension cli@2.2.5
+2020-10-26T14:08:23.347Z - info: Using extension debug@2.1.3
+2020-10-26T14:08:23.359Z - info: Using extension express@2.8.0
+2020-10-26T14:08:30.032Z - info: Using extension freeze@2.0.0
+2020-10-26T14:08:30.055Z - info: Using extension handlebars@2.1.0
+2020-10-26T14:08:30.088Z - info: Using extension import-export@2.1.0
+2020-10-26T14:08:31.051Z - info: Using extension jsrender@2.1.1
+2020-10-26T14:08:31.057Z - info: Using extension tags@2.5.0
+2020-10-26T14:08:31.099Z - info: Using extension templates@2.4.0
+2020-10-26T14:08:31.117Z - info: Using extension authorization@2.4.0
+2020-10-26T14:08:31.254Z - info: Using extension base@2.0.2
+2020-10-26T14:08:31.287Z - info: Using extension browser-client@2.2.2
+2020-10-26T14:08:31.388Z - info: Using extension child-templates@1.4.0
+2020-10-26T14:08:31.457Z - info: Using extension chrome-pdf@1.9.0
+2020-10-26T14:08:33.513Z - info: Using extension data@2.4.0
+2020-10-26T14:08:33.521Z - info: Using extension docx@2.8.0
+2020-10-26T14:08:33.572Z - info: Using extension fs-store@2.9.0
+2020-10-26T14:08:36.827Z - info: Using extension licensing@2.2.3
+2020-10-26T14:08:37.029Z - info: Using extension pdf-utils@1.9.0
+2020-10-26T14:08:38.964Z - info: Using extension pptx@0.7.0
+2020-10-26T14:08:39.019Z - info: Using extension reports@2.5.0
+2020-10-26T14:08:39.081Z - info: Using extension static-pdf@0.4.0
+2020-10-26T14:08:39.225Z - info: Using extension studio@2.10.1
+2020-10-26T14:08:40.024Z - info: Using extension text@2.0.0
+2020-10-26T14:08:40.039Z - info: Using extension version-control@1.5.1
+2020-10-26T14:08:42.797Z - info: Using extension assets@1.7.0
+2020-10-26T14:08:43.139Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-26T14:08:52.128Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-26T14:08:52.131Z - info: Using extension scheduling@2.5.0
+2020-10-26T14:08:52.690Z - info: Using extension scripts@2.6.0
+2020-10-26T14:08:52.777Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-26T14:08:52.803Z - info: Using extension xlsx@2.5.0
+2020-10-26T14:08:56.349Z - info: Using extension public-templates@2.2.0
+2020-10-26T14:08:56.374Z - info: Using extension resources@2.1.0
+2020-10-26T14:08:56.479Z - info: Using extension sample-template@2.6.0
+2020-10-26T14:08:56.507Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-26T14:08:56.514Z - info: Using fs provider for template store.
+2020-10-26T14:08:56.544Z - info: fs store is persisting using fs
+2020-10-26T14:08:56.551Z - info: fs store is synchronizing using fs
+2020-10-26T14:08:56.612Z - info: fs store is loading data
+2020-10-26T14:08:56.786Z - error: Error occured during reporter init Error: EPERM: operation not permitted, rename 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\~samples~MarkoVoice Report Samples' -> 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\MarkoVoice Report Samples'
+2020-10-26T15:58:49.634Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-26T15:58:49.636Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T15:58:49.644Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T15:58:49.689Z - info: Found 35 extensions
+2020-10-26T15:58:50.060Z - info: Setting http-server strategy for rendering
+2020-10-26T15:58:50.270Z - info: Using extension cli@2.2.5
+2020-10-26T15:58:50.281Z - info: Using extension debug@2.1.3
+2020-10-26T15:58:50.286Z - info: Using extension express@2.8.0
+2020-10-26T15:58:50.470Z - info: Using extension freeze@2.0.0
+2020-10-26T15:58:50.481Z - info: Using extension handlebars@2.1.0
+2020-10-26T15:58:50.485Z - info: Using extension import-export@2.1.0
+2020-10-26T15:58:50.550Z - info: Using extension jsrender@2.1.1
+2020-10-26T15:58:50.552Z - info: Using extension tags@2.5.0
+2020-10-26T15:58:50.559Z - info: Using extension templates@2.4.0
+2020-10-26T15:58:50.569Z - info: Using extension authorization@2.4.0
+2020-10-26T15:58:50.577Z - info: Using extension base@2.0.2
+2020-10-26T15:58:50.587Z - info: Using extension browser-client@2.2.2
+2020-10-26T15:58:50.591Z - info: Using extension child-templates@1.4.0
+2020-10-26T15:58:50.604Z - info: Using extension chrome-pdf@1.9.0
+2020-10-26T15:58:50.698Z - info: Using extension data@2.4.0
+2020-10-26T15:58:50.700Z - info: Using extension docx@2.8.0
+2020-10-26T15:58:50.705Z - info: Using extension fs-store@2.9.0
+2020-10-26T15:58:50.880Z - info: Using extension licensing@2.2.3
+2020-10-26T15:58:50.890Z - info: Using extension pdf-utils@1.9.0
+2020-10-26T15:58:50.986Z - info: Using extension pptx@0.7.0
+2020-10-26T15:58:50.995Z - info: Using extension reports@2.5.0
+2020-10-26T15:58:51.003Z - info: Using extension static-pdf@0.4.0
+2020-10-26T15:58:51.009Z - info: Using extension studio@2.10.1
+2020-10-26T15:58:51.087Z - info: Using extension text@2.0.0
+2020-10-26T15:58:51.088Z - info: Using extension version-control@1.5.1
+2020-10-26T15:58:51.193Z - info: Using extension assets@1.7.0
+2020-10-26T15:58:51.207Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-26T15:58:51.665Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-26T15:58:51.666Z - info: Using extension scheduling@2.5.0
+2020-10-26T15:58:51.716Z - info: Using extension scripts@2.6.0
+2020-10-26T15:58:51.720Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-26T15:58:51.721Z - info: Using extension xlsx@2.5.0
+2020-10-26T15:58:51.911Z - info: Using extension public-templates@2.2.0
+2020-10-26T15:58:51.920Z - info: Using extension resources@2.1.0
+2020-10-26T15:58:51.923Z - info: Using extension sample-template@2.6.0
+2020-10-26T15:58:51.927Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-26T15:58:51.927Z - info: Using fs provider for template store.
+2020-10-26T15:58:51.943Z - info: fs store is persisting using fs
+2020-10-26T15:58:51.944Z - info: fs store is synchronizing using fs
+2020-10-26T15:58:51.961Z - info: fs store is loading data
+2020-10-26T15:59:00.199Z - error: Error occured during reporter init Error: EPERM: operation not permitted, rename 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\~samples~MarkoVoice Report Samples' -> 'C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\data\MarkoVoice Report Samples'
+2020-10-26T16:04:41.729Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-26T16:04:41.731Z - info: Searching for available extensions in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T16:04:41.755Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\MuhammadMansha\Desktop\Node Projects\MarkoVoice\jsreport\
+2020-10-26T16:04:41.784Z - info: Found 35 extensions
+2020-10-26T16:04:42.095Z - info: Setting http-server strategy for rendering
+2020-10-26T16:04:42.334Z - info: Using extension cli@2.2.5
+2020-10-26T16:04:42.345Z - info: Using extension debug@2.1.3
+2020-10-26T16:04:42.349Z - info: Using extension express@2.8.0
+2020-10-26T16:04:42.561Z - info: Using extension freeze@2.0.0
+2020-10-26T16:04:42.569Z - info: Using extension handlebars@2.1.0
+2020-10-26T16:04:42.579Z - info: Using extension import-export@2.1.0
+2020-10-26T16:04:42.642Z - info: Using extension jsrender@2.1.1
+2020-10-26T16:04:42.645Z - info: Using extension tags@2.5.0
+2020-10-26T16:04:42.653Z - info: Using extension templates@2.4.0
+2020-10-26T16:04:42.658Z - info: Using extension authorization@2.4.0
+2020-10-26T16:04:42.662Z - info: Using extension base@2.0.2
+2020-10-26T16:04:42.665Z - info: Using extension browser-client@2.2.2
+2020-10-26T16:04:42.668Z - info: Using extension child-templates@1.4.0
+2020-10-26T16:04:42.682Z - info: Using extension chrome-pdf@1.9.0
+2020-10-26T16:04:42.775Z - info: Using extension data@2.4.0
+2020-10-26T16:04:42.777Z - info: Using extension docx@2.8.0
+2020-10-26T16:04:42.782Z - info: Using extension fs-store@2.9.0
+2020-10-26T16:04:42.935Z - info: Using extension licensing@2.2.3
+2020-10-26T16:04:42.948Z - info: Using extension pdf-utils@1.9.0
+2020-10-26T16:04:43.048Z - info: Using extension pptx@0.7.0
+2020-10-26T16:04:43.060Z - info: Using extension reports@2.5.0
+2020-10-26T16:04:43.066Z - info: Using extension static-pdf@0.4.0
+2020-10-26T16:04:43.100Z - info: Using extension studio@2.10.1
+2020-10-26T16:04:43.182Z - info: Using extension text@2.0.0
+2020-10-26T16:04:43.184Z - info: Using extension version-control@1.5.1
+2020-10-26T16:04:43.285Z - info: Using extension assets@1.7.0
+2020-10-26T16:04:43.298Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-26T16:04:43.652Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-26T16:04:43.653Z - info: Using extension scheduling@2.5.0
+2020-10-26T16:04:43.699Z - info: Using extension scripts@2.6.0
+2020-10-26T16:04:43.702Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-26T16:04:43.711Z - info: Using extension xlsx@2.5.0
+2020-10-26T16:04:43.888Z - info: Using extension public-templates@2.2.0
+2020-10-26T16:04:43.896Z - info: Using extension resources@2.1.0
+2020-10-26T16:04:43.898Z - info: Using extension sample-template@2.6.0
+2020-10-26T16:04:43.913Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-26T16:04:43.914Z - info: Using fs provider for template store.
+2020-10-26T16:04:43.928Z - info: fs store is persisting using fs
+2020-10-26T16:04:43.931Z - info: fs store is synchronizing using fs
+2020-10-26T16:04:43.947Z - info: fs store is loading data
+2020-10-26T16:04:44.097Z - info: fs store is initialized successfully
+2020-10-26T16:04:44.114Z - info: Creating default express app.
+2020-10-26T16:04:47.759Z - info: jsreport server successfully started on https port: 5488
+2020-10-26T16:04:47.763Z - info: fs store emits sockets to synchronize underlying changes with studio
+2020-10-26T16:04:48.185Z - info: Verifying license key free
+2020-10-26T16:04:48.217Z - info: Using free license
+2020-10-26T16:04:48.255Z - info: reporter initialized
+2020-10-26T16:05:55.468Z - info: Starting rendering request 1 (user: null)
+2020-10-26T16:05:55.484Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:06:03.328Z - info: Starting rendering request 2 (user: null)
+2020-10-26T16:06:03.331Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-26T16:06:03.743Z - info: html-to-xlsx generation is starting
+2020-10-26T16:06:10.524Z - info: Rendering request 1 finished in 15047 ms
+2020-10-26T16:06:12.626Z - info: html-to-xlsx generation was finished
+2020-10-26T16:06:14.774Z - info: Rendering request 2 finished in 11399 ms
+2020-10-26T16:06:32.115Z - info: Starting rendering request 3 (user: null)
+2020-10-26T16:06:32.134Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:06:47.354Z - info: pdf-utils is starting pdf processing
+2020-10-26T16:06:47.946Z - info: Starting rendering request 4 (user: null)
+2020-10-26T16:06:47.949Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:06:50.718Z - info: Starting rendering request 5 (user: null)
+2020-10-26T16:06:50.733Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:06:52.241Z - info: Rendering request 4 finished in 4309 ms
+2020-10-26T16:06:52.510Z - info: pdf-utils pdf processing was finished
+2020-10-26T16:06:52.514Z - info: Rendering request 3 finished in 20420 ms
+2020-10-26T16:06:52.877Z - info: Rendering request 5 finished in 2160 ms
+2020-10-26T16:07:18.228Z - info: Starting rendering request 6 (user: null)
+2020-10-26T16:07:18.241Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:07:26.216Z - info: pdf-utils is starting pdf processing
+2020-10-26T16:07:26.329Z - info: Starting rendering request 7 (user: null)
+2020-10-26T16:07:26.346Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-26T16:07:28.289Z - info: Rendering request 7 finished in 1960 ms
+2020-10-26T16:07:28.386Z - info: pdf-utils pdf processing was finished
+2020-10-26T16:07:28.389Z - info: Rendering request 6 finished in 10161 ms
+2020-10-26T16:07:35.422Z - info: Starting rendering request 8 (user: null)
+2020-10-26T16:07:35.425Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-26T16:07:35.488Z - info: html-to-xlsx generation is starting
+2020-10-26T16:07:36.972Z - info: html-to-xlsx generation was finished
+2020-10-26T16:07:37.762Z - info: Rendering request 8 finished in 2303 ms
+2020-10-26T16:08:57.532Z - info: Starting rendering request 9 (user: null)
+2020-10-26T16:08:57.546Z - info: Rendering template { name: DemoReport, recipe: html, engine: handlebars, preview: true }
+2020-10-26T16:08:57.582Z - info: Rendering request 9 finished in 51 ms

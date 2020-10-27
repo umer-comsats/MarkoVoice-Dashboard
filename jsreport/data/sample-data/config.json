@@ -1,0 +1,12 @@
+{
+    "shortid": "LZwWjqqHBw",
+    "name": "sample-data",
+    "creationDate": {
+        "$$date": 1603567950900
+    },
+    "modificationDate": {
+        "$$date": 1603567997735
+    },
+    "_id": "gr3Lw2sQnCQlyn57",
+    "$entitySet": "data"
+}
