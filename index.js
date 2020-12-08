@@ -20,7 +20,7 @@ app.use(cors());
 // }
 /** connect with db */
 mongoose
-	.connect('mongodb://localhost/administrators')
+	.connect('mongodb://admin1:admin123@mycluster-shard-00-00.c89un.mongodb.net:27017,mycluster-shard-00-01.c89un.mongodb.net:27017,mycluster-shard-00-02.c89un.mongodb.net:27017/devConnectorDatabase?ssl=true&replicaSet=MyCluster-shard-0&authSource=admin&retryWrites=true&w=majority')
 	.then(() => console.log('Connected to MongoDB...'))
 	.catch(() => console.error('Could not connect to MongoDB...'));
 

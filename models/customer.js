@@ -30,6 +30,7 @@ const Customer = mongoose.model(
 			minlength: 5,
 			maxlength: 1024
 		},
+		//no need for accountStatus, instead customization status will be used.
 		status: {
 			type: accountStatusSchema,
 			required: true
@@ -40,6 +41,7 @@ const Customer = mongoose.model(
 			minlength: 10,
 			maxlength: 15
 		},
+		//package must be in customization and not here!
 		package: {
 			type: String,
 			required: true,

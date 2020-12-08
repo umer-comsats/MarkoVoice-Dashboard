@@ -85,7 +85,7 @@ router.delete('/:id', async (req, res) => {
 			return res.status(404).send(`Role with Id = ${req.params.id} Not Found!`);
 		}
 
-		//return the same course
+		//return the same role
 		res.send(role);
 	} catch (ex) {
 		res.status(400).send(ex.message);

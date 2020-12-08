@@ -6,6 +6,7 @@ const { Customer, validateAddCustomer, validateEditCustomer } = require('../mode
 
 /**
  * customers module handles all the routes of customers
+ * 
  */
 
 /** Read all customers */
@@ -31,7 +32,7 @@ router.post('/', async (req, res) => {
 		return res.status(400).send('Customer Already Registered.');
 	}
 	try {
-		//get roaccount statusle
+		//get roaccount status
 		const accountStatus = await AccountStatus.findById(req.body.statusId);
 		if (!accountStatus) {
 			return res.status(400).send('Invalid Account Status');
@@ -42,7 +43,7 @@ router.post('/', async (req, res) => {
 			name: req.body.name,
 			email: req.body.email,
 			password: req.body.password,
-			// This is hybrid approach, will add just few properties.
+			// status object is copying values of id and name from accountStatus model.
 			status: {
 				_id: accountStatus._id,
 				name: accountStatus.name
