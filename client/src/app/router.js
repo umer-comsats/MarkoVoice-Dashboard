@@ -8,7 +8,7 @@ import MainLayoutRoutes from '../layouts/routes/mainRoutes';
 import FullPageLayout from '../layouts/routes/fullpageRoutes';
 import ErrorLayoutRoute from '../layouts/routes/errorRoutes';
 // Main Layout
-const LazyEcommerceDashboard = lazy(() => import('../views/dashboard/ecommerceDashboard'));
+const LazyCustomerDashboard = lazy(() => import('../views/dashboard/ecommerceDashboard'));
 const LazyAnalyticsDashboard = lazy(() => import('../views/dashboard/analyticsDashboard'));
 const LazySalesDashboard = lazy(() => import('../views/dashboard/salesDashboard'));
 const LazyEmail = lazy(() => import('../views/email/email'));
@@ -86,6 +86,12 @@ const EditCustomerForm = lazy(() => import('../views/admin/accountManagement/edi
 const UsersRecord = lazy(() => import('../views/admin/accountManagement/usersRecord'));
 const Logout = lazy(() => import('../views/admin/accountManagement/logout'));
 
+// Customer
+const LazyCustomerLogin = lazy(() => import('../views/customer/Login'));
+const LazyCustomerRegister = lazy(() => import('../views/customer/Register'));
+const CustomerLogout = lazy(() => import('../views/customer/Logout'));
+
+
 // Full Layout
 const LazyForgotPassword = lazy(() => import('../views/pages/forgotPassword'));
 const LazyLogin = lazy(() => import('../views/pages/login'));
@@ -127,6 +133,15 @@ class Router extends Component {
 						render={(matchprops) => (
 							<Suspense fallback={<Spinner />}>
 								<LazySalesDashboard {...matchprops} />
+							</Suspense>
+						)}
+					/>
+					<MainLayoutRoutes
+						exact
+						path="/customer-dashboard"
+						render={(matchprops) => (
+							<Suspense fallback={<Spinner />}>
+								<LazyCustomerDashboard {...matchprops} />
 							</Suspense>
 						)}
 					/>
@@ -682,6 +697,24 @@ class Router extends Component {
 							</Suspense>
 						)}
 					/>
+					<FullPageLayout
+						exact
+						path="/customer/login"
+						render={(matchprops) => (
+							<Suspense fallback={<Spinner />}>
+								<LazyCustomerLogin {...matchprops} />
+							</Suspense>
+						)}
+					/>
+					<FullPageLayout
+						exact
+						path="/customer/register"
+						render={(matchprops) => (
+							<Suspense fallback={<Spinner />}>
+								<LazyCustomerRegister {...matchprops} />
+							</Suspense>
+						)}
+					/>
 					<MainLayoutRoutes
 						exact
 						path="/pages/user-profile"
@@ -860,6 +893,16 @@ class Router extends Component {
 						render={(matchprops) => (
 							<Suspense fallback={<Spinner />}>
 								<Logout />
+							</Suspense>
+						)}
+					/>
+
+					<MainLayoutRoutes
+						exact
+						path="/customer/logout"
+						render={(matchprops) => (
+							<Suspense fallback={<Spinner />}>
+								<CustomerLogout />
 							</Suspense>
 						)}
 					/>

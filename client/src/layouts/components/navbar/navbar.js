@@ -247,8 +247,8 @@ class ThemeNavbar extends Component {
 									<DropdownMenu right>
 										<DropdownItem>
 											<span className="font-small-3">
-												{this.props.user.name}
-												<span className="text-muted"> ({this.props.user.role})</span>
+												{this.props.user ? this.props.user.name : ""}
+												<span className="text-muted"> ({this.props.user ? this.props.user.role : "Customer"})</span>
 											</span>
 										</DropdownItem>
 										<DropdownItem divider />
@@ -279,11 +279,19 @@ class ThemeNavbar extends Component {
 												<Lock size={16} className="mr-1" /> Lock Screen
 											</DropdownItem>
 										</Link>
-										<Link to="/pages/logout" className="p-0">
+											{this.props.user ? (<Link to="/pages/logout" className="p-0">
 											<DropdownItem>
 												<LogOut size={16} className="mr-1" /> Logout
 											</DropdownItem>
-										</Link>
+											</Link>) :
+
+											(<Link to="/customer/logout" className="p-0">
+											<DropdownItem>
+												<LogOut size={16} className="mr-1" /> Logout
+											</DropdownItem>
+											</Link>)}
+										
+										
 									</DropdownMenu>
 								</UncontrolledDropdown>
 							</Nav>

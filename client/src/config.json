@@ -1,3 +1,4 @@
 {
-	"apiURL": "http://localhost:3003/api"
+	"apiURL": "http://localhost:3003/api",
+	"custApiURL": "http://localhost:3003/api"
 }

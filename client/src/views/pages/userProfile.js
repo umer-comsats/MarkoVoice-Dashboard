@@ -21,6 +21,8 @@ import classnames from 'classnames';
 
 // import internal(own) modules
 import auth from '../services/authService';
+import customerAuth from './../services/customer/authService';
+
 
 import gallery1 from '../../assets/img/gallery/1.jpg';
 import gallery2 from '../../assets/img/gallery/2.jpg';
@@ -58,7 +60,8 @@ import photo14 from '../../assets/img/photos/14.jpg';
 class UserProfile extends Component {
 	state = {
 		activeTab: '1',
-		user: ''
+		user: '',
+		customer: ''
 	};
 
 	toggle = (tab) => {
@@ -71,11 +74,14 @@ class UserProfile extends Component {
 
 	componentDidMount() {
 		const user = auth.getCurrentUser();
+		const customer = customerAuth.getCurrentCustomer();
+		
 		this.setState({ user });
+		this.setState({ customer });
 	}
 
 	render() {
-		const { user } = this.state;
+		const { user, customer } = this.state;
 		return (
 			<Fragment>
 				<Row>
@@ -89,7 +95,7 @@ class UserProfile extends Component {
 								<Col xs="5">
 									<div className="align-self-start halfway-fab pl-3 pt-2">
 										<div className="text-left">
-											<h3 className="card-title text-white">{user.name}</h3>
+											<h3 className="card-title text-white">{user ? user.name : customer.name}</h3>
 										</div>
 									</div>
 								</Col>
@@ -159,8 +165,8 @@ class UserProfile extends Component {
 									</Col>
 
 									<Col lg="2" md="2" className="text-center">
-										<span className="font-medium-2 text-uppercase">{user.name}</span>
-										<p className="grey font-small-2">{user.role}</p>
+										<span className="font-medium-2 text-uppercase">{user ? user.name : customer.name}</span>
+										<p className="grey font-small-2">{user ? user.role : "Customer"}</p>
 									</Col>
 
 									<Col lg="5" md="5">

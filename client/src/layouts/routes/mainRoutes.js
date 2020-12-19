@@ -2,6 +2,7 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import auth from '../../views/services/authService';
+import customerAuth from '../../views/services/customer/authService';
 // import internal(own) modules
 import MainLayout from '../mainLayout';
 
@@ -12,8 +13,11 @@ import MainLayout from '../mainLayout';
  * Author: Muhammad Mansha
  */
 const MainLayoutRoute = ({ render, ...rest }) => {
-	if (auth.getCurrentUser()) {
+	if (auth.getCurrentUser() || customerAuth.getCurrentCustomer()) {
 		return <Route {...rest} render={(matchProps) => <MainLayout>{render(matchProps)}</MainLayout>} />;
+	}
+	if(customerAuth.getCurrentCustomer == null){
+		return <Redirect to="/customer/login" />;
 	}
 	return <Redirect to="/pages/login" />;
 };

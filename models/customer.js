@@ -76,6 +76,17 @@ function validateEditCustomer(customer) {
 	return schema.validate(customer);
 }
 
+/** function to validate signup customer form (what the client sents us)*/
+function validateSignupCustomer(customer) {
+	const schema = Joi.object({
+		name: Joi.string().min(3).max(50).required().label('Name'),
+		email: Joi.string().required().label('Email').email(),
+		password: Joi.string().min(5).max(1024).required().label('Password'),
+		phoneNumber: Joi.number().integer().required().min(0).label('Phone Number')
+	});
+	return schema.validate(customer);
+}
 exports.validateAddCustomer = validateAddCustomer;
 exports.validateEditCustomer = validateEditCustomer;
+exports.validateSignupCustomer = validateSignupCustomer; 
 exports.Customer = Customer;
