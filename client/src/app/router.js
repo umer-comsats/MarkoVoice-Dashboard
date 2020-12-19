@@ -11,6 +11,7 @@ import ErrorLayoutRoute from '../layouts/routes/errorRoutes';
 const LazyCustomerDashboard = lazy(() => import('../views/dashboard/ecommerceDashboard'));
 const LazyAnalyticsDashboard = lazy(() => import('../views/dashboard/analyticsDashboard'));
 const LazySalesDashboard = lazy(() => import('../views/dashboard/salesDashboard'));
+const LazyCreateCustomizationPage = lazy(() => import('../views/customization/CreateCustomizationPage'));
 const LazyEmail = lazy(() => import('../views/email/email'));
 const LazyChat = lazy(() => import('../views/chat/chat'));
 const LazyContacts = lazy(() => import('../views/contacts/contacts'));
@@ -152,6 +153,15 @@ class Router extends Component {
 						render={(matchprops) => (
 							<Suspense fallback={<Spinner />}>
 								<LazyColorPallete {...matchprops} />
+							</Suspense>
+						)}
+					/>
+					<MainLayoutRoutes
+						exact
+						path="/customization-panel"
+						render={matchprops => (
+							<Suspense fallback={<Spinner />}>
+								<LazyCreateCustomizationPage {...matchprops} />
 							</Suspense>
 						)}
 					/>

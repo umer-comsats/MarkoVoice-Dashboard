@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import {
    Home,
    Mail,
+   Settings,
    MessageSquare,
    ChevronRight,
    Aperture,
@@ -48,6 +49,14 @@ class SideMenuContent extends Component {
                   <span className="menu-item-text">Sales</span>
                </NavLink>
             </SideMenu.MenuMultiItems>
+            <SideMenu.MenuSingleItem >
+               <NavLink to="/customization-panel" activeclassname="active">
+                  <i className="menu-icon">
+                     <Settings size={18} />
+                  </i>
+                  <span className="menu-item-text">Customization</span>
+               </NavLink>
+            </SideMenu.MenuSingleItem>
             <SideMenu.MenuSingleItem badgeColor="danger" badgeText="6">
                <NavLink to="/email" activeclassname="active">
                   <i className="menu-icon">
@@ -402,7 +411,7 @@ class SideMenuContent extends Component {
                   </SideMenu.MenuMultiItems>
                </SideMenu>
             </SideMenu.MenuMultiItems>
-            
+
             <SideMenu.MenuSingleItem>
                <NavLink to="/pages/change-log" activeclassname="active">
                   <i className="menu-icon">
